@@ -12,6 +12,7 @@ license="Apache2.0 or GPLv3"
 options="!check"
 depends="fontconfig mkfontdir mkfontscale"
 makedepends="font-util-dev"
+install="$pkgname.post-install"
 source="https://nchc.dl.sourceforge.net/project/wqy/wqy-microhei/0.2.0-beta/wqy-microhei-0.2.0-beta.tar.gz"
 builddir="$srcdir/$_pkgname-$pkgver"
 
