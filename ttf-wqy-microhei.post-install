@@ -1,0 +1,4 @@
+#!/bin/sh
+fc-cache -f > /dev/null
+mkfontscale /usr/share/fonts/TTC
+mkfontdir /usr/share/fonts/TTC
